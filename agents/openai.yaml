@@ -1,0 +1,4 @@
+interface:
+  display_name: "故事式英语启蒙动画"
+  short_description: "将教学目标转为小故事，复用角色帧动画、配音、字幕并交付可审核短视频"
+  default_prompt: "使用 $edu-animation-skill，根据当前计划与素材库完成本次英语启蒙动画任务，保留来源和真实审核状态。"

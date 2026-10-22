@@ -1,0 +1,26 @@
+{
+  "fps": 16,
+  "green_rgb": [0, 255, 0],
+  "tolerance": 18,
+  "softness": 5,
+  "despill": 0.8,
+  "edge_shrink": 1,
+  "value_min": 100,
+  "green_excess_min": 20,
+  "connected_background": false,
+  "remove_light_border": false,
+  "keep_largest_component": false,
+  "actions": {},
+  "overrides": {},
+  "playback": {
+    "idle": "loop",
+    "walk_side": "loop",
+    "wave": "return_idle",
+    "jump": "return_idle",
+    "nod_fast": "return_idle",
+    "cheer": "return_idle",
+    "point_upper_right": "hold"
+  },
+  "layouts": {},
+  "closed_mouth": {}
+}

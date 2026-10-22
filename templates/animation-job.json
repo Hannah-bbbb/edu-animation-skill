@@ -1,0 +1,19 @@
+{
+  "job_id": "bear-talk-v1",
+  "character": "bear",
+  "action": "talk_loop_v1",
+  "label": "自然说话循环",
+  "purpose": "供已授权角色对白使用的全身说话循环候选",
+  "playback": "loop",
+  "reference_image": "references/character-design.png",
+  "reference_sha256": "REPLACE_WITH_ACTUAL_SHA256",
+  "prompt": "{{按character-action.txt填入完整四段提示词，不能直接提交模板}}",
+  "request": {
+    "model": "doubao-seedance-2-0-mini-260615",
+    "resolution": "480p",
+    "duration": 4,
+    "ratio": "1:1",
+    "generate_audio": false,
+    "watermark": false
+  }
+}
